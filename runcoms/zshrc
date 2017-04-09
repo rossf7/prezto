@@ -14,3 +14,6 @@ fi
 
 # gvm for managing go versions
 [[ -s "/Users/ross/.gvm/scripts/gvm" ]] && source "/Users/ross/.gvm/scripts/gvm"
+
+# auto completions
+source <(kubectl completion zsh)
