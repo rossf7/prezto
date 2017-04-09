@@ -11,3 +11,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# gvm for managing go versions
+[[ -s "/Users/ross/.gvm/scripts/gvm" ]] && source "/Users/ross/.gvm/scripts/gvm"
